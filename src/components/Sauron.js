@@ -5,7 +5,8 @@ const Sauron = ({characters}) => {
     let sauron = characters.slice(0, n).map(i => {
         return <div>
             <h2>{i.name}</h2>
-            <h5>{i.aliases}</h5>
+            <h5>{i.aliases[0]}</h5>
+            <h5>{i.aliases[1]}</h5>
             <p>{i.description}</p>
         </div>
     })
