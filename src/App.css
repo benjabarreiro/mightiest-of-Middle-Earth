@@ -1,0 +1,31 @@
+.App {
+  background-image: url('https://cdna.artstation.com/p/assets/images/images/004/212/978/large/ayoub-ziani-mordor.jpg?1481395159');
+  background-size: 100% 100%;
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.link {
+  color: white;
+  margin-right: 10px;
+}
+
+.intro {
+  font-style: italic;
+  margin: 16px;
+}
+
+.created {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.list {
+  list-style: none;
+}
